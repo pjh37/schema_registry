@@ -1,0 +1,25 @@
+[
+  {
+    "type": "record",
+    "name": "User",
+    "fields": [
+      {
+        "type": "int",
+        "name": "id"
+      },
+      {
+        "type": "int",
+        "name": "age"
+      },
+      {
+        "type": "string",
+        "name": "name"
+      },
+      {
+        "type": "string",
+        "name": "carID",
+        "default": "test"
+      }
+    ]
+  }
+]
